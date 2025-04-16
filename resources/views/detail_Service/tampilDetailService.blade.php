@@ -80,4 +80,4 @@
     @include('layout.footers')
     <!--end::Footer-->
 </div>
-@include('layout.scripts')
+@include('layout.script')
