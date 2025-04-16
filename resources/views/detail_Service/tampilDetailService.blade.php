@@ -60,9 +60,9 @@
                                                 <td>{{ $row->sparepart }}</td>
                                                 <td>{{ $row->harga }}</td>
                                                 <td>
-                                                    <a href="{{ route('detail-service.edit', $row->id_detail_service) }}" class="btn btn-warning">Edit</a>  
+                                                    <a href="{{ route('detail-service.edit', $row->id) }}" class="btn btn-warning">Edit</a>  
                                                     <span class="separator"></span>
-                                                    <a href="{{ route('detail-service.delete', $row->id_detail_service) }}" class="btn btn-danger">Delete</a>
+                                                    <a href="{{ route('detail-service.delete', $row->id) }}" class="btn btn-danger">Delete</a>
                                                 </td>
                                             </tr>
                                         @endforeach
