@@ -363,7 +363,7 @@
                           <a href="#">
                             <img
                               class="contacts-list-img"
-                              src="{{asset('assets/assets/img/user8-128x128.jpg')}}"
+                              src="{{asset('asset/assets/img/user8-128x128.jpg')}}"
                               alt="User Avatar"
                             />
                             <div class="contacts-list-info">
