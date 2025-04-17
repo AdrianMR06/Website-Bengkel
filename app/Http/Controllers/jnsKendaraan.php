@@ -14,7 +14,7 @@ class jnsKendaraan_Controller extends Controller
     {
         $data = ModelsJns_kendaraan::get();
         //dd($data);
-        return view('jnsKendaraan.tampilDetailjnsKendaraan', compact('data'));
+        return view('jns_Kendaraan.tampilDetailjnsKendaraan', compact('data'));
     }
 
     /**
@@ -22,7 +22,7 @@ class jnsKendaraan_Controller extends Controller
      */
     public function create()
     {
-        return view('jnsKendaraan.tambahDetailjnsKendaraan');
+        return view('jns_Kendaraan.tambahDetailjnsKendaraan');
     }
 
     /**

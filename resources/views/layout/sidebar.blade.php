@@ -49,9 +49,33 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="./index3.html" class="nav-link">
+                    <a href="./pemilik" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
-                      <p>Dashboard v3</p>
+                      <p>Pemilik</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./mekanik" class="nav-link">
+                      <i class="nav-icon bi bi-circle"></i>
+                      <p>Mekanik</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./jenis-service" class="nav-link">
+                      <i class="nav-icon bi bi-circle"></i>
+                      <p>Jenis Service</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./jenis-kendaraan" class="nav-link">
+                      <i class="nav-icon bi bi-circle"></i>
+                      <p>Jenis Kendaraan</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./service" class="nav-link">
+                      <i class="nav-icon bi bi-circle"></i>
+                      <p>Service</p>
                     </a>
                   </li>
                 </ul>
