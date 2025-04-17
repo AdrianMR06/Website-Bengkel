@@ -70,7 +70,7 @@ Route::get('/pemilik/delete/{id}', [pemilik::class, 'delete'])->name('pemilik.de
 
 Route::get('/kendaraan', [kendaraan::class, 'index'])->name('kendaraan.index');
 Route::get('/kendaraan/add', [kendaraan::class, 'create'])->name('kendaraan.create');
-Route::post('/kendaraan/add', [detail_service::class, 'store'])->name('kendaraan.store');
+Route::post('/kendaraan/add', [kendaraan::class, 'store'])->name('kendaraan.store');
 Route::get('/kendaraan/edit/{id}', [kendaraan::class, 'edit'])->name('kendaraan.edit');
 Route::post('/kendaraan/edit/{id}', [kendaraan::class, 'update'])->name('kendaraan.update');
 Route::get('/kendaraan/delete/{id}', [kendaraan::class, 'delete'])->name('kendaraan.delete');

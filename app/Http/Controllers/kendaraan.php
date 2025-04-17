@@ -30,15 +30,15 @@ class kendaraan extends Controller
      */
     public function store(Request $request)
     {
-        $data = new ModelsKendaraan();
-        $data->no_pol=$request->no_pol;
-        $data->tahun_kendaraan=$request->tahun_kendaraan;
-        $data->no_mesin=$request->no_mesin;
-        $data->no_rangka=$request->no_rangka;
-        $data->kapasitas_mesin=$request->kapasitas_mesin;
-        $data->transmisi=$request->transmisi;
-        $data->save();
-        return redirect('kendaraan');
+         $data = new ModelsKendaraan();
+         $data->no_pol = $request->no_pol;
+         $data->tahun_kendaraan = $request->tahun_kendaraan;
+         $data->no_mesin = $request->no_mesin;
+         $data->no_rangka = $request->no_rangka;
+         $data->kapasitas_mesin = $request->kapasitas_mesin;
+         $data->transmisi = $request->transmisi;
+         $data->save();
+         return redirect('kendaraan');
     }
 
     /**

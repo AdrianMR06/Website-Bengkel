@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('no_mesin', 12);
             $table->string('no_rangka', 17);
             $table->string('kapasitas_mesin', 4);
-            $table->string('transmisi', 2);
+            $table->string('transmisi', 20);
             $table->timestamps();
         });
     }
